@@ -1,43 +1,29 @@
-/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f5f5f5;
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
 }
 
-/* Навигация */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #333;
-    padding: 15px 10%;
-}
-
-.logo {
+    background-color: #333;
     color: white;
-    font-size: 24px;
-    font-weight: bold;
+    padding: 20px 0;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Главный экран (Hero) */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center/cover;
+    background-color: #0073e6;
     color: white;
-    padding: 100px 10%;
+    padding: 50px 20px;
 }
 
 .hero h1 {
@@ -45,50 +31,35 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.highlighted-text {
+    font-size: 20px;
+    color: #ffcc00; /* Более контрастный цвет */
+    font-weight: bold;
 }
 
 .btn {
-    background: #ff5733;
-    color: white;
-    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-.btn:hover {
-    background: #e0482b;
+.features, .about {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Секция Features */
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 50px 10%;
-}
-
-.feature {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Секция About */
-.about {
-    padding: 50px 10%;
-    background: #ddd;
-}
-
-/* Футер */
 footer {
-    background: #222;
+    background-color: #333;
     color: white;
-    padding: 15px;
+    padding: 20px 0;
     margin-top: 20px;
 }
