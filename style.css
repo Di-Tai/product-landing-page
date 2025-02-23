@@ -43,7 +43,6 @@ nav a:hover {
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
-    color: #cccccc; /* Сделал заголовок чуть темнее */
 }
 
 .hero p {
@@ -51,7 +50,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Кнопка */
 .btn {
     background: #ff5733;
     color: white;
@@ -70,4 +68,27 @@ nav a:hover {
     display: flex;
     justify-content: center;
     gap: 30px;
-    paddin
+    padding: 50px 10%;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Секция About */
+.about {
+    padding: 50px 10%;
+    background: #ddd;
+}
+
+/* Футер */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
