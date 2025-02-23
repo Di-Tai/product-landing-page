@@ -94,3 +94,49 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
+/* Стили для страницы контактов */
+
+/* Общие стили для контейнера */
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Заголовок */
+.contact-container h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Описание */
+.contact-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Ссылка на email */
+.contact-container a {
+    color: #ff5733;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+
+/* Футер */
+.contact-footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
