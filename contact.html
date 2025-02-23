@@ -5,46 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>      
-        .contact-container {
-            max-width: 800px !important;
-            margin: 50px auto !important;
-            padding: 20px !important;
-            background: white !important;
-            border-radius: 10px !important;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
-            text-align: center !important;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5; /* Цвет из главной страницы */
+    text-align: center;
 }
 
+/* Навигация */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333; /* Тёмный фон */
+    padding: 15px 10%;
+}
 
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Общий стиль для секций */
+.section {
+    padding: 60px 10%;
+}
+.contact-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Заголовок */
 .contact-container h1 {
-    font-size: 32px !important;
-    color: #333 !important;
-    margin-bottom: 15px !important;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
-
+/* Описание */
 .contact-container p {
-    font-size: 18px !important;
-    color: #666 !important;
-    margin-bottom: 20px !important;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-
+/* Email */
 .contact-container a {
-    color: #ff5733 !important;
-    font-weight: bold !important;
-    text-decoration: none !important;
+    color: #ff5733;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .contact-container a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
+    color: #b71c1c;
 }
 
+/* Футер */
 .contact-footer {
-    margin-top: 30px !important;
-    font-size: 14px !important;
-    color: #999 !important;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
 }
+
+/* Выравнивание футера внизу */
+footer {
+    width: 100%;
+    padding: 15px;
+    background: #222;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+        
     </style>
 </head>
 <body>
